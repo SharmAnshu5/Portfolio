@@ -48,7 +48,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a Web-developer with experince in TypeScript and Javascript, and expertise in frameworks
-like React, node.js, NEXT.js, three.js. I'm a quick learner and good in collabrateing in a team.
+like React, node.js, NEXT.js. I'm a quick learner and good in collaborating in a team.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

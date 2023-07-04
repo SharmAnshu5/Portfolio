@@ -8,10 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import python from './tech/python.png'
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -21,16 +20,52 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+
+import sv from './company/sv.jpg'
+import zipy from './company/zipy.png'
+import coursera from './company/coursera.png'
+import udemy from './company/udemy.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pong from './pong.jpg'
+import snake from './snake.jpg'
+import cart from './one-page-cart.jpg'
+import notes from './notes-icp.jpg'
+import candy from './candy-crush.jpg'
+import dbank from './dbank.jpg'
+import firstPort from './first-portfolio.png'
+import gptWhatsapp from './gpt-whatsapp.png'
+import tours from './tours.png'
+import reminder from './birthdayReminder.png'
+import reviews from './reviews.png'
+import disney from './disney.png'
+
+import udemyStack from './certi/udemy.jpg'
+import pythonCoursera from './certi/python-coursera.png'
+import freecode from './certi/htmlcssfreecodecamp.jpg'
+import duke from './certi/duke.png'
+import campus from './certi/campus.png'
+import mimoWeb from './certi/mimo.jpg'
+import mimo1 from './certi/mimo-web.jpg'
+import mimoSql from './certi/mimo-sql.jpg'
+import svCertificate from './certi/sv.png'
 
 export {
+  svCertificate,
+  disney,
+  reviews,
+  reminder,
+  tours,
+  gptWhatsapp,
+  firstPort,
+  dbank,
+  pong,
+  snake,
+  cart,
+  notes,
+  candy,
   logo,
   backend,
   creator,
@@ -40,8 +75,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -52,11 +85,20 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
+  python,
+  sv,
+  zipy,
+  coursera,
+  udemy,
+  udemyStack,
+  pythonCoursera,
+  freecode,
+  duke,
+  campus,
+  mimoWeb,
+  mimo1,
+  mimoSql
 };
