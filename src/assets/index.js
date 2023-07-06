@@ -29,7 +29,7 @@ import udemy from './company/udemy.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import pong from './pong.jpg'
+
 import snake from './snake.jpg'
 import cart from './one-page-cart.jpg'
 import notes from './notes-icp.jpg'
@@ -69,7 +69,7 @@ export {
   gptWhatsapp,
   firstPort,
   dbank,
-  pong,
+
   snake,
   cart,
   notes,
