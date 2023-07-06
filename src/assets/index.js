@@ -52,7 +52,15 @@ import mimo1 from './certi/mimo-web.jpg'
 import mimoSql from './certi/mimo-sql.jpg'
 import svCertificate from './certi/sv.png'
 
+import svReco from './reco/sv-recomand.pdf'
+import zipyReco from './reco/Zipy-recomandation.pdf'
+
+import dimaPic from './Dima.jpg'
+
 export {
+  dimaPic,
+  svReco,
+  zipyReco,
   svCertificate,
   disney,
   reviews,

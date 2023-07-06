@@ -48,11 +48,8 @@ const Certificates = () => {
         <p className={`${styles.sectionSubText} `}>My Study</p>
         <h2 className={`${styles.sectionHeadText}`}>Certificats.</h2>
       </div>
-
       <div className='w-full flex'>
-
       </div>
-
       <div className='mt-20 flex flex-wrap gap-7'>
         {certificates.map((certifacte, index) => (
             <ProjectCard key={`project-${index}`} index={index} {...certifacte} />

@@ -43,6 +43,9 @@ import {
     reviews,
     disney,
     svCertificate,
+    zipyReco,
+    svReco,
+    dimaPic,
   } from "../assets";
 
   
@@ -201,24 +204,27 @@ import {
         "Outstanding student who consistently demonstrated exceptional aptitude and dedication. A top-performer with an A+ honor. Highly recommended.",
       name: "Yaniv Almog",
       designation: "Teacher",
+      signedFile: svReco,
       company: "Sv-college",
       image: "https://scontent.ftlv18-1.fna.fbcdn.net/v/t39.30808-6/279146268_1690637841288743_4913742192122967193_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iz2GSuf0LvsAX_ILjt_&_nc_ht=scontent.ftlv18-1.fna&oh=00_AfA05GtKw3fyHxvVVquRoxM4KGhvnvS3g-G-vwb8d4Eg1Q&oe=64437EBA",
     },
     {
       testimonial:
-        "Highly skilled, reliable, and diligent. A valuable asset to any team.",
+        "I had the pleasure of working with Niv.  He is eager to learn new skills and technologies. He is also a great team player who communicates well and collaborates effectively with other developers.  I highly recommend  Niv for any frontend development roles",
       name: "Yura",
       designation: "Senior Frontend",
+      signedFile: zipyReco,
       company: "Zipy",
       image: "https://ca.slack-edge.com/T0XM0LL0J-UAQ1UFNBT-7eecbbd5dbb1-72",
     },
     {
       testimonial:
-        "Adept at complex backend solutions, dependable, and collaborative. An exceptional team player with outstanding technical skills",
-      name: "Igor",
-      designation: "Senior Backend",
+        "Strong Recommendation for Niv Barcechet - Exceptional Front-End Programmer I am writing to highly recommend Niv as an exceptional front-end programmer. During his tenure at Zipy, Niv's expertise in React, Next.js, and Typescript has consistently impressed us.",
+      name: "Dima",
+      designation: "CEO",
+      signedFile: zipyReco,
       company: "Zipy",
-      image: "https://ca.slack-edge.com/T0XM0LL0J-U2Q41SCFL-b8b95376741f-72",
+      image: dimaPic,
     },
   ];
 
