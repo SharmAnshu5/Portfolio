@@ -21,7 +21,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 
-import sv from './company/sv.jpg'
+import sv from './company/sv.png'
 import zipy from './company/zipy.png'
 import coursera from './company/coursera.png'
 import udemy from './company/udemy.png'
@@ -29,33 +29,33 @@ import udemy from './company/udemy.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import pong from './pong.jpg'
-import snake from './snake.jpg'
-import cart from './one-page-cart.jpg'
-import notes from './notes-icp.jpg'
-import candy from './candy-crush.jpg'
-import dbank from './dbank.jpg'
-import firstPort from './first-portfolio.png'
+import pong from './pong.png'
+import snake from './snake.png'
+import cart from './one-page-cart.png'
+import notes from './notes-icp.png'
+import candy from './candy-crush.png'
+import dbank from './dbank.png'
+import firstPort from './first-portfolio.PNG'
 import gptWhatsapp from './gpt-whatsapp.png'
 import tours from './tours.png'
 import reminder from './birthdayReminder.png'
 import reviews from './reviews.png'
 import disney from './disney.png'
 
-import udemyStack from './certi/udemy.jpg'
+import udemyStack from './certi/udemy.png'
 import pythonCoursera from './certi/python-coursera.png'
-import freecode from './certi/htmlcssfreecodecamp.jpg'
+import freecode from './certi/htmlcssfreecodecamp.png'
 import duke from './certi/duke.png'
 import campus from './certi/campus.png'
-import mimoWeb from './certi/mimo.jpg'
-import mimo1 from './certi/mimo-web.jpg'
-import mimoSql from './certi/mimo-sql.jpg'
+import mimoWeb from './certi/mimo.png'
+import mimo1 from './certi/mimo-web.png'
+import mimoSql from './certi/mimo-sql.png'
 import svCertificate from './certi/sv.png'
 
 import svReco from './reco/sv-recomand.pdf'
 import zipyReco from './reco/Zipy-recomandation.pdf'
 
-import dimaPic from './Dima.jpg'
+import dimaPic from './Dima.png'
 
 export {
   dimaPic,
