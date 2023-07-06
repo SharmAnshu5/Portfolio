@@ -37,7 +37,7 @@ import candy from './candy-crush.png'
 import dbank from './dbank.png'
 import firstPort from './first-portfolio.PNG'
 import gptWhatsapp from './gpt-whatsapp.png'
-import tours from './tours.png'
+
 import reminder from './birthdayReminder.png'
 import reviews from './reviews.png'
 import disney from './disney.png'
@@ -65,7 +65,6 @@ export {
   disney,
   reviews,
   reminder,
-  tours,
   gptWhatsapp,
   firstPort,
   dbank,
