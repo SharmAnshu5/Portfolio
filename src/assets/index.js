@@ -50,7 +50,7 @@ import campus from './certi/campus.png'
 import mimoWeb from './certi/mimo.png'
 import mimo1 from './certi/mimo-web.png'
 import mimoSql from './certi/mimo-sql.png'
-import svCertificate from './certi/sv.png'
+import svCertificate from './certi/svc.png'
 
 import svReco from './reco/sv-recomand.pdf'
 import zipyReco from './reco/Zipy-recomandation.pdf'
