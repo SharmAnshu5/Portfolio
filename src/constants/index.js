@@ -38,6 +38,7 @@ import {
     dbank,
     firstPort,
     gptWhatsapp,
+    tours,
     reminder,
     reviews,
     disney,
@@ -515,7 +516,7 @@ import {
           color: tagsColors.css,
         },
       ],
-      image: '',
+      image: tours,
       source_code_link: "https://github.com/Nivnivu/tours-app",
       link: 'https://nivnivu.github.io/tours-app/'
     },

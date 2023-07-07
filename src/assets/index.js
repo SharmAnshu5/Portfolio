@@ -25,7 +25,7 @@ import sv from './company/sv.png'
 import zipy from './company/zipy.png'
 import coursera from './company/coursera.png'
 import udemy from './company/udemy.png'
-
+import tours from './tours.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -35,7 +35,7 @@ import cart from './one-page-cart.png'
 import notes from './notes-icp.png'
 import candy from './candy-crush.png'
 import dbank from './dbank.png'
-import firstPort from './first-portfolio.PNG'
+import firstPort from './first-portfolio.png'
 import gptWhatsapp from './gpt-whatsapp.png'
 
 import reminder from './birthdayReminder.png'
@@ -58,6 +58,7 @@ import zipyReco from './reco/Zipy-recomandation.pdf'
 import dimaPic from './Dima.png'
 
 export {
+  tours,
   dimaPic,
   svReco,
   zipyReco,
