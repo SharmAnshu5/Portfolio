@@ -25,7 +25,7 @@ import sv from './company/sv.png'
 import zipy from './company/zipy.png'
 import coursera from './company/coursera.png'
 import udemy from './company/udemy.png'
-import tour from './tour.png'
+import tours from './tour.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -35,17 +35,17 @@ import cart from './one-page-cart.png'
 import notes from './notes-icp.png'
 import candy from './candy-crush.png'
 import dbank from './dbank.png'
-import firstPort from './first-portfolio.png'
+import firstPort from './firstPortfolio.png'
 import gptWhatsapp from './gpt-whatsapp.png'
 
-import reminder from './birthdayReminder.png'
-import reviews from './reviews.png'
+import reminder from './birthday-reminder.png'
+import reviews from './review.png'
 import disney from './disney.png'
 
 import udemyStack from './certi/udemy.png'
-import pythonCoursera from './certi/python-coursera.png'
+import pythonCoursera from './certi/pythoncoursera.png'
 import freecode from './certi/htmlcssfreecodecamp.png'
-import duke from './certi/duke.png'
+import duke from './certi/duke1.png'
 import campus from './certi/campus.png'
 import mimoWeb from './certi/mimo.png'
 import mimo1 from './certi/mimo-web.png'
@@ -58,7 +58,7 @@ import zipyReco from './reco/Zipy-recomandation.pdf'
 import dimaPic from './Dima.png'
 
 export {
-  tour,
+  tours,
   dimaPic,
   svReco,
   zipyReco,

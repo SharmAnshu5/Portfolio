@@ -516,7 +516,7 @@ import {
           color: tagsColors.css,
         },
       ],
-      image: tour,
+      image: tours,
       source_code_link: "https://github.com/Nivnivu/tours-app",
       link: 'https://nivnivu.github.io/tours-app/'
     },
