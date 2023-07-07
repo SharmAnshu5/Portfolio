@@ -25,7 +25,7 @@ import sv from './company/sv.png'
 import zipy from './company/zipy.png'
 import coursera from './company/coursera.png'
 import udemy from './company/udemy.png'
-import tours from './tours.png'
+import tour from './tour.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -58,7 +58,7 @@ import zipyReco from './reco/Zipy-recomandation.pdf'
 import dimaPic from './Dima.png'
 
 export {
-  tours,
+  tour,
   dimaPic,
   svReco,
   zipyReco,
