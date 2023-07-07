@@ -55,7 +55,7 @@ import svCertificate from './certi/svc.png'
 import svReco from './reco/sv-recomand.pdf'
 import zipyReco from './reco/Zipy-recomandation.pdf'
 
-import dimaPic from './Dima.png'
+import dimaPic from './dimas.png'
 
 export {
   tours,
