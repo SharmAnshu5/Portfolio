@@ -46,6 +46,7 @@ import {
     zipyReco,
     svReco,
     dimaPic,
+    bots
   } from "../assets";
 
   
@@ -145,11 +146,24 @@ import {
   
   const experiences = [
     {
+      title: "Bots and Automation creator",
+      company_name: "Elie B tech Adviser Ltd",
+      icon: bots ,
+      iconBG: "#E6DEDD",
+      date: "Dec 2023 - Present",
+      points: [
+        "As a freelancer specializing in automation I create advanced bots for Telegram, WhatsApp, Binance, and more.",
+        "My expertise includes developing tailored scraping bots and various automation solutions,",
+        "efficiently streamlining digital tasks for diverse needs."
+      ]
+    },
+
+    {
       title: "Full-Stack intern",
       company_name: "Zipy",
       icon: zipy,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - Dec 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

@@ -20,7 +20,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-
+import bots from './company/bot.png'
 import sv from './company/sv.png'
 import zipy from './company/zipy.png'
 import coursera from './company/coursera.png'
@@ -58,6 +58,7 @@ import zipyReco from './reco/Zipy-recomandation.pdf'
 import dimaPic from './dimas.png'
 
 export {
+  bots,
   tours,
   dimaPic,
   svReco,
