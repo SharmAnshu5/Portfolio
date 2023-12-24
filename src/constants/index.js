@@ -147,7 +147,7 @@ import {
   const experiences = [
     {
       title: "Bots and Automation creator",
-      company_name: "Elie B tech Adviser Ltd",
+      company_name: "Bots4All",
       icon: bots ,
       iconBG: "#E6DEDD",
       date: "Dec 2023 - Present",
