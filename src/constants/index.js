@@ -1,4 +1,5 @@
 import {
+    telegram,
     mobile,
     backend,
     creator,
@@ -251,10 +252,58 @@ import {
     mongo: 'green-text-gradient',
     sql: 'orange-text-gradient',
     gql: 'green-text-gradient',
-    next: 'blue-text-gradient'
+    next: 'blue-text-gradient',
+    api: 'green-text-gradient',
+    playwright: 'pink-text-gradient'
   }
 
   const projects = [
+    {
+      name: 'Stealth Telegram Extractor',
+      description: "This tool is a highly efficient Telegram scraper capable of extracting data from private and closed groups undetected. It's designed to avoid blocks and bans, ensuring continuous operation and reliability. Ideal for users needing deep insights from Telegram's exclusive channels without compromising speed or data integrity.",
+      tags: [
+        {
+          name: 'Node.js',
+          color: tagsColors.node
+        },
+        {
+          name: 'Playwright',
+          color: tagsColors.playwright
+        }
+      ],
+      image: telegram,
+      link: 'https://github.com/Nivnivu/telebot',
+      source_code_link: 'https://github.com/Nivnivu/telebot'
+    },
+    {
+      name: 'Cross-Platform Dispatche',
+      description: "Cross-Platform Dispatcher is an API that instantly relays messages from a Telegram channel to Facebook, WhatsApp, and X (the new Twitter). This tool simplifies multi-platform engagement, ensuring messages are uniformly distributed across key social networks, enhancing reach and connectivity with ease. Ideal for seamless digital communication strategies.",
+      tags: [
+        {
+          name: 'Node.js',
+          color: tagsColors.node
+        },
+        {
+          name: 'Facebook Graph API',
+          color: tagsColors.api
+        },
+        {
+          name: 'Whatsapp API',
+          color: tagsColors.api
+        },
+        {
+          name: 'X API',
+          color: tagsColors.api
+        },
+        {
+          name: 'Telegram API',
+          color: tagsColors.api
+        }
+      ],
+        image: telegram,
+        link: 'https://github.com/Nivnivu/crossPlatforms',
+        source_code_link: 'https://github.com/Nivnivu/crossPlatforms'
+    },
     {
       name: "Disney+ Clone",
       description:

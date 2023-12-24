@@ -37,6 +37,7 @@ import candy from './candy-crush.png'
 import dbank from './dbank.png'
 import firstPort from './firstPortfolio.png'
 import gptWhatsapp from './gpt-whatsapp.png'
+import telegram from './telegram.png'
 
 import reminder from './birthday-reminder.png'
 import reviews from './review.png'
@@ -93,6 +94,7 @@ export {
   redux,
   tailwind,
   typescript,
+  telegram,
   threejs,
   carrent,
   jobit,
