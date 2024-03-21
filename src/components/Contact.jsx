@@ -16,6 +16,8 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false); // New state to track if the form has been submitted
+
 
   const handleChange = (e) => {
     const { target } = e;
@@ -57,6 +59,17 @@ const Contact = () => {
   };
   
 
+  const buttonClassName = () => {
+    let baseClass = 'py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md ';
+    if (loading) {
+      return baseClass + 'bg-tertiary'; // Original color when loading
+    } else if (submitted) {
+      return baseClass + 'bg-purple-500'; // Purple color when submitted
+    }
+    return baseClass + 'bg-tertiary'; // Default color
+  };
+
+  
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -107,11 +120,8 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
+          <button type='submit' className={buttonClassName()} onClick={()=> {setSubmitted(true)}} >
+            {loading ? "Sending..." : submitted ? "Submitted" : "Send"}
           </button>
         </form>
       </motion.div>
