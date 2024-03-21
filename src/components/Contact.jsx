@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -28,44 +27,35 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-//template_kyqwfph
-// service_mc87h5q
-// GplXjcP6dftjmwT5-
-    emailjs
-      .send(
-        'service_mc87h5q',
-        'template_kyqwfph',
-        {
-          from_name: form.name,
-          to_name: "Niv Barchechet",
-          from_email: form.email,
-          to_email: "nivbarsh@gmail.com",
-          message: form.message,
+  
+    try {
+      const response = await fetch('/api/route', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        'GplXjcP6dftjmwT5-'
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+        body: JSON.stringify(form),
+      });
+  
+      if (response.ok) {
+        // Handle success - reset form, set loading to false, etc.
+        setForm({ name: "", email: "", message: "" });
+        // Notify the user of successful submission
+      } else {
+        // Handle errors
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error(error);
+      // Notify the user of an error
+    }
+  
+    setLoading(false);
   };
+  
 
   return (
     <div
