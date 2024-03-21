@@ -1,12 +1,9 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
@@ -27,7 +24,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[290px]'>
           <img
             src={image}
             alt='project_image'
@@ -83,7 +80,7 @@ const Projects = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
+          links to code repositories some have live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </p>

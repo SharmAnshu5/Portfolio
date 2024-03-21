@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a Web-developer with experince in TypeScript and Javascript, and expertise in frameworks
-like React, node.js, NEXT.js. I'm a quick learner and good in collaborating in a team.
+        I'm a 28 years old fullstack-developer with 4 years experince with Javascript and Python , franeworks, enviroemnts, DB etc. i am using can be found under my projects and in github.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

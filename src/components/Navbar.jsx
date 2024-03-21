@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles';
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import {  menu, close, modernLogo } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link to='/' className='flex items-center gap-2' onClick={() => {
             setActive('');
             window.scrollTo(0, 0);
-          }} > <img src={logo} alt="logo" className='w-9 h-9 object-contain'  />
+          }} > <img src={modernLogo} alt="logo" className='w-9 h-9 object-contain rounded-full'  />
               <p className='text-white text-[18px] font-bold cursor-pointer flex'>
               Niv &nbsp;<span className='sm:block hidden'>| Web Developer</span></p>
            </Link>

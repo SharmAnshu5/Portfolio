@@ -1,5 +1,4 @@
 import {
-    telegram,
     mobile,
     backend,
     creator,
@@ -32,22 +31,16 @@ import {
     mimo1,
     mimoSql,
     pong,
-    snake,
-    cart,
-    notes,
-    candy,
-    dbank,
     firstPort,
     gptWhatsapp,
-    tours,
-    reminder,
-    reviews,
     disney,
     svCertificate,
     zipyReco,
     svReco,
     dimaPic,
-    bots
+    bots,
+    stealthTelegram,
+    cross_platform
   } from "../assets";
 
   
@@ -76,19 +69,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Backend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Bots & Automation Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Technology Solution Architect",
       icon: creator,
     },
   ];
@@ -221,7 +214,7 @@ import {
       designation: "Teacher",
       signedFile: svReco,
       company: "Sv-college",
-      image: "https://scontent.ftlv18-1.fna.fbcdn.net/v/t39.30808-6/279146268_1690637841288743_4913742192122967193_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Iz2GSuf0LvsAX_ILjt_&_nc_ht=scontent.ftlv18-1.fna&oh=00_AfA05GtKw3fyHxvVVquRoxM4KGhvnvS3g-G-vwb8d4Eg1Q&oe=64437EBA",
+      image: "https://media.licdn.com/dms/image/D4D03AQGLYrAKBVZd0g/profile-displayphoto-shrink_800_800/0/1689979504386?e=1716422400&v=beta&t=5FLfuJdsTZ7HsPRYd9a9nKCVYHGf9RyuXhGe4RNm4Tw",
     },
     {
       testimonial:
@@ -271,7 +264,7 @@ import {
           color: tagsColors.playwright
         }
       ],
-      image: telegram,
+      image: stealthTelegram,
       link: 'https://github.com/Nivnivu/telebot',
       source_code_link: 'https://github.com/Nivnivu/telebot'
     },
@@ -300,14 +293,14 @@ import {
           color: tagsColors.api
         }
       ],
-        image: telegram,
+        image: cross_platform,
         link: 'https://github.com/Nivnivu/crossPlatforms',
         source_code_link: 'https://github.com/Nivnivu/crossPlatforms'
     },
     {
       name: "Disney+ Clone",
       description:
-        "Disney+ Clone with some API functions.",
+        "Disney+ Clone with CRUD API functions. Experminting GQL the fastes DB",
       tags: [
         {
           name: "Next.js",
@@ -329,12 +322,20 @@ import {
     {
       name: "Whatsapp-GPT",
       description:
-        "Using OpenAI API and Whatsapp.web.js i can get a fast response from Chat-GPT",
+        "Using OpenAI API and Whatsapp.web.js i can tweek response from chatgpt and talk to him in a whatsapp conversation.",
       tags: [
         {
           name: "Node.js",
           color: tagsColors.node,
         },
+        {
+          name: 'OpenAI-API',
+          color: tagsColors.api
+        },
+        {
+          name: 'Whatsapp-web.js',
+          color: tagsColors.api
+        }
       ],
       image: gptWhatsapp,
       source_code_link: "https://github.com/Nivnivu/gpt-to-whatsapp",
@@ -360,7 +361,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/Nivnivu/crypto2",
-      link: 'https://rsicalc.herokuapp.com/'
+      link: 'https://github.com/Nivnivu/crypto2'
     },
     {
       name: "First Portfolio",
@@ -443,176 +444,19 @@ import {
       source_code_link: "https://github.com/Nivnivu/pong-game",
       link: 'https://nivnivu.github.io/pong-game/'
     },
-    {
-      name: "Snake Game",
-      description:
-        "Well known snake game",
-      tags: [
-        {
-          name: "HTML",
-          color: tagsColors.html,
-        },
-        {
-          name: "Javascript",
-          color: tagsColors.js,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
 
-      ],
-      image: snake,
-      source_code_link: "https://github.com/Nivnivu/snake-game",
-      link: 'https://nivnivu.github.io/snake-game/'
-    },
-    {
-      name: "Cart",
-      description:
-        "One page IDigital Clone",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-
-      ],
-      image: cart,
-      source_code_link: "https://github.com/Nivnivu/react_app",
-      link: 'https://nivnivu.github.io/react_app/'
-    },
-    {
-      name: "Secure Notes",
-      description:
-        "Notes App runing with ICP-Blockchain as backend",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-        {
-          name: "Motoko",
-          color: tagsColors.html,
-        },
-      ],
-      image: notes,
-      source_code_link: "https://github.com/Nivnivu/notes-icp",
-      link: 'https://nivnivu.github.io/notes/'
-    },
-    {
-      name: "DBank",
-      description:
-        "Demo runing on ICP Blockchain",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-        {
-          name: "Motoko",
-          color: tagsColors.html,
-        },
-      ],
-      image: dbank,
-      source_code_link: "https://github.com/Nivnivu/dbank",
-      link: ''
-    },
-    {
-      name: "Candy-Crush",
-      description:
-        "Candy crush simple clone version",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-      ],
-      image: candy,
-      source_code_link: "https://github.com/Nivnivu/barsh-crush-game",
-      link: 'https://nivnivu.github.io/barsh-crush-game/'
-    },
-    {
-      name: "Birthday reminder",
-      description:
-        "A simple Frontend App.",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-      ],
-      image: reminder,
-      source_code_link: "https://github.com/Nivnivu/birthday-reminder",
-      link: 'https://nivnivu.github.io/birthday-reminder/'
-    },
-    {
-      name: "Tours App",
-      description:
-        "Mapping Tours to a React interface",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-      ],
-      image: tours,
-      source_code_link: "https://github.com/Nivnivu/tours-app",
-      link: 'https://nivnivu.github.io/tours-app/'
-    },
-    {
-      name: "Reviews App",
-      description:
-        "Awesome and simple Reviews App with React",
-      tags: [
-        {
-          name: "React",
-          color: tagsColors.react,
-        },
-        {
-          name: "CSS",
-          color: tagsColors.css,
-        },
-      ],
-      image: reviews,
-      source_code_link: "https://nivnivu.github.io/reviews-app/",
-      link: 'https://nivnivu.github.io/reviews-app/'
-    },
   ];
   
   const certificates = [
     {
       name: "Full-Stack Development",
       image: svCertificate,
-      verifyLink: "",
+      verifyLink: "https://www.nivbarsh.com/assets/svc-8afcecef.png",
     },
     {
       name: "Full-Stack Bootcamp",
       image: udemyStack,
-      verifyLink: "https://lh3.googleusercontent.com/fife/APg5EOalqPDaCSNFEnkEMfHg6aGhn6o7QuK6Qg9QBePnPwB7JNtH7uozxfJSpA6eGRoAJpyRucSqajyfz6UiHD4iC9Po4wpyO8miC8l9SJwEJT352o3kTK0WGlEDi3HlLmkpSYrrXeNFRpYo6HeFClVR4HFECm_edmdyvdDvjULozhDP_NA_SqfPk9ctN64_sAjLHRGToiHxB3G2t0W42mLDlOa86qBnXxuInzgI-jkVe3j3ZPJDUWMrylvN3ton8FumHb7Y03rSCYUEn8Z9kG3a2lGhvhCn5fJ6osROjx0MFGLYKPkUU9HG4f7N7gHwl3JiygSyO6505Q5McGqCzA76U_BIe0Fqsi11wq5EVOX5PuztxQCpz74KZDW8645ibrYsxO1B2JE0nqk5JGXey2POkPs6eGUqXPdUAje5xzB6YGMz2nuXePBtltzBkS8blaH3FQ3HJJsm2glnbPpsYnmVi0K9dvHJLXUiUCKbZCxjoLgnMxQabIIt2K1NvZsjch23tNsm7Z_XbW8AYn2FJLaGCmkzWrJ3Z9O813g8zwHebvpvARTMf8VCVJEgvUf4cDA6sbQ6NxeqMGQH2iS62ypNjaeuFnYXKR0E_dgay-rXFbRb6yIsJaAh5hyPlUnNRtkq0GaE-IGFIgyotrAAAJ45-hwq5WZTCcNPsBSo3Z43cn_5D1Dhjr0NgPYT8YlxNfWTzSZRDKMlnt18O5BB2wim6LEcoSYwi-yc9fD02BqewjsiYTggbQhXtQSEaomqB7j1iI8ApuHHWIh7z287h99bNOQhV9No-tH83rIqIlyOsJqVPcFvikqGJ9AP9qZTCNu7hAW62yedpEv697OZcGopPaM0vumLsZlnWu7p3CUe3pchDHFEArZUPiEeifox-51d-Tf32_DLlR2CA7eKaj86LUEUtnYGoTxlX-mu89qhbsNdNxIHKbpXj9hDqnwkjm0_eGg6XFNvi-fc=w1920-h937",
+      verifyLink: "https://www.udemy.com/certificate/UC-008e28ba-d63b-4585-bd93-ad8f8c99f27a/",
     },
     {
       name: "Python For Everybody with honor",

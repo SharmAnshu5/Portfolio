@@ -25,23 +25,15 @@ import sv from './company/sv.png'
 import zipy from './company/zipy.png'
 import coursera from './company/coursera.png'
 import udemy from './company/udemy.png'
-import tours from './tour.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pong from './pong.png'
-import snake from './snake.png'
-import cart from './one-page-cart.png'
-import notes from './notes-icp.png'
-import candy from './candy-crush.png'
-import dbank from './dbank.png'
 import firstPort from './firstPortfolio.png'
 import gptWhatsapp from './gpt-whatsapp.png'
-import telegram from './telegram.png'
 
-import reminder from './birthday-reminder.png'
-import reviews from './review.png'
 import disney from './disney.png'
+import cross_platform from './cross_platform.png'
 
 import udemyStack from './certi/udemy.png'
 import pythonCoursera from './certi/pythoncoursera.png'
@@ -57,25 +49,22 @@ import svReco from './reco/sv-recomand.pdf'
 import zipyReco from './reco/Zipy-recomandation.pdf'
 
 import dimaPic from './dimas.png'
+import modernLogo from './modern_logo.png'
+import stealthTelegram from './stealth_telegram.png'
 
 export {
+  stealthTelegram,
+  cross_platform,
+  modernLogo,
   bots,
-  tours,
   dimaPic,
   svReco,
   zipyReco,
   svCertificate,
   disney,
-  reviews,
-  reminder,
   gptWhatsapp,
   firstPort,
-  dbank,
   pong,
-  snake,
-  cart,
-  notes,
-  candy,
   logo,
   backend,
   creator,
@@ -94,7 +83,6 @@ export {
   redux,
   tailwind,
   typescript,
-  telegram,
   threejs,
   carrent,
   jobit,
