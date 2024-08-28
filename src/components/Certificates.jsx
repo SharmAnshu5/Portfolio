@@ -43,7 +43,7 @@ const Certificates = () => {
     <>
       <div>
         <p className={`${styles.sectionSubText} `}>My Study</p>
-        <h2 className={`${styles.sectionHeadText}`}>Certificats.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>certificates.</h2>
       </div>
       <div className='w-full flex'>
       </div>

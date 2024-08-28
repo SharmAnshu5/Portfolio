@@ -20,7 +20,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I Develop Professional Frontend And Backend Applications 
             <br className='sm:block hidden' />
-            As well as variues bots, scraping and automaion tools.
+            As well as variues bots, scraping and automation tools.
            
           </p>
         </div>
