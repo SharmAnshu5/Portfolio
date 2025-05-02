@@ -181,11 +181,14 @@ import {
       source_code_link: "https://github.com/SharmAnshu5/Portfolio",
     },
     {
-      name: "Python Mini Project",
-      description:[ 
-        "Created a GitHub repository for Python mini-projects, focusing on learning and experimentation.",
-        "Projects include implementations using libraries like NumPy and interactive tools like trinket. Strong foundation in computer science and AI principles.",
-        "Developed expertise in programming, machine learning, and problem-solving skills through academic projects and coursework."
+      name: "InsuScan Pro",
+      description: [ 
+        "Technologies: Python, FastAPI, Streamlit, XGBoost, scikit-learn, PyMuPDF, pdf2image, python-docx.",
+        "Developed an AI-based system to extract key medical data from PDF and DOCX reports.",
+        "Used machine learning models (XGBoost, scikit-learn) to predict diabetes presence and classify it as Type 1 or Type 2.",
+        "Built a complete application with a FastAPI backend and an interactive Streamlit frontend.",
+        "Integrated tools like PyMuPDF, pdf2image, and python-docx for document parsing and preprocessing.",
+        "Implemented real-time prediction, classification, and summarization, improving accessibility of medical insights."
       ],
       tags: [
         {
@@ -193,16 +196,24 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "NumPy",
+          name: "scikit-learn",
           color: "green-text-gradient",
         },
         {
-          name: "Trinket",
+          name: "Streamlit",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "xgboost",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastapi",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/SharmAnshu5/PYTHON-Project",
+      source_code_link: "https://github.com/SharmAnshu5/InsuScan_Pro",
     },
   ];
   
