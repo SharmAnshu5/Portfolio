@@ -47,7 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a 28 years old fullstack-developer with 4 years experince with Javascript and Python , frameworks, environments, DB etc. i am using can be found under my projects and in github.
+        I'm a passionate AI enthusiast pursuing a Computer Science 
+        and AI degree. My focus is on harnessing the power of 
+        machine learning to develop innovative solutions. 
+        I'm eager to apply my skills in a dynamic environment and 
+        contribute to groundbreaking projects.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

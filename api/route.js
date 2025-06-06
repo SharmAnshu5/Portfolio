@@ -1,41 +1,34 @@
 import { MongoClient } from 'mongodb';
 
-// Replace the uri with your actual MongoDB URI from the environment variables
 const uri = process.env.MONGODB_URI;
-let client;
-let clientPromise;
+const client = new MongoClient(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-// Initialize the connection once for your application
-if (!clientPromise) {
-  client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
-  clientPromise = client.connect();
-}
+let clientPromise = client.connect();
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
-      // Connect to the MongoDB client
       const client = await clientPromise;
-      const database = client.db('nivBarsh');
-      const contacts = database.collection('users');
-      
-      // Parse the request body to get the contact data
-      const contactData = req.body;
+      const db = client.db('anshusharma5as');
+      const collection = db.collection('users');
 
-      // Insert the contact data into the database
-      const result = await contacts.insertOne(contactData);
+      const { name, email, message } = req.body;
 
-      // Send a response to the client
-      res.status(200).json({ message: 'Contact saved', result });
-    } catch (error) {
-      // If there's an error, log it and send an error response
-      console.error(error);
-      res.status(500).json({ error: error.message });
+      if (!name || !email || !message) {
+        return res.status(400).json({ error: 'Missing required fields' });
+      }
+
+      const result = await collection.insertOne({ name, email, message });
+
+      return res.status(200).json({ message: 'Form submitted', id: result.insertedId });
+    } catch (err) {
+      console.error('Error saving to MongoDB:', err);
+      return res.status(500).json({ error: 'Internal Server Error' });
     }
-  } 
-
-  else {
-    // If the method is not POST, send a method not allowed response
-    res.status(405).json({ message: 'Method not allowed' });
+  } else {
+    return res.status(405).json({ error: 'Method Not Allowed' });
   }
 }

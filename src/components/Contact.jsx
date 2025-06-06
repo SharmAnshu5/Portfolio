@@ -5,6 +5,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+const _motion = motion;
+
+//service_vkpvqoo
+//template_1bkmzbq
+//xgLqS_EyN9mWbv5Nz
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,7 +21,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  const [submitted, setSubmitted] = useState(false); // New state to track if the form has been submitted
+  const [submitted, setSubmitted] = useState(false); 
 
 
   const handleChange = (e) => {
