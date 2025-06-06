@@ -1,11 +1,10 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
 const _motion = motion;
 
 //service_vkpvqoo
@@ -14,6 +13,7 @@ const _motion = motion;
 
 const Contact = () => {
   const formRef = useRef();
+
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -21,6 +21,8 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false); 
+
 
   const handleChange = (e) => {
     const { target } = e;
@@ -32,43 +34,47 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
-    emailjs
-      .send(
-        'service_vkpvqoo',
-        'template_1bkmzbq',
-        {
-          from_name: form.name,
-          to_name: "Anshu Sharma",
-          from_email: form.email,
-          to_email: "anshusharma5.as@gmail.com",
-          message: form.message,
+  
+    try {
+      const response = await fetch('/api/route', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        'xgLqS_EyN9mWbv5Nz'
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+        body: JSON.stringify(form),
+      });
+  
+      if (response.ok) {
+        // Handle success - reset form, set loading to false, etc.
+        setForm({ name: "", email: "", message: "" });
+        // Notify the user of successful submission
+      } else {
+        // Handle errors
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error(error);
+      // Notify the user of an error
+    }
+  
+    setLoading(false);
+  };
+  
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+  const buttonClassName = () => {
+    let baseClass = 'py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md ';
+    if (loading) {
+      return baseClass + 'bg-tertiary'; // Original color when loading
+    } else if (submitted) {
+      return baseClass + 'bg-purple-500'; // Purple color when submitted
+    }
+    return baseClass + 'bg-tertiary'; // Default color
   };
 
+  
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -92,7 +98,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What is your name ?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -103,7 +109,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What is your email address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -119,11 +125,8 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
+          <button type='submit' className={buttonClassName()} onClick={()=> {setSubmitted(true)}} >
+            {loading ? "Sending..." : submitted ? "Submitted" : "Send"}
           </button>
         </form>
       </motion.div>

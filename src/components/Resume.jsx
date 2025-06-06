@@ -28,4 +28,4 @@ const Resume = () => {
   );
 };
 
-export default SectionWrapper( Resume, "resume");
+export default SectionWrapper(Resume, "resume");

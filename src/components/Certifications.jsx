@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React , { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,14 +7,12 @@ import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from "../styles";
-import { certifications as certificationsData } from "../constants/indexs.js";
+import { styles } from "../styles.js";
+import { certifications as certificationsData } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion.js";
 
-const _motion = motion;
-
-const CertificationsCard = ({ certifications }) => {
+const Certifications_Card = ({ certifications }) => {
   const [isPreviewOpen, setPreviewOpen] = useState(false);
 
   return (
@@ -85,6 +83,8 @@ const CertificationsCard = ({ certifications }) => {
   );
 };
 
+const _motion = motion;
+
 const Certifications = () => {
   return (
     <>
@@ -100,7 +100,7 @@ const Certifications = () => {
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {certificationsData.map((certifications, index) => (
-            <CertificationsCard
+            <Certifications_Card
               key={`certifications-${index}`}
               certifications={certifications}
             />
@@ -111,4 +111,4 @@ const Certifications = () => {
   );
 };
 
-export default SectionWrapper(Certifications, "work");
+export default SectionWrapper(Certifications, "");
