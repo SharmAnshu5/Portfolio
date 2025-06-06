@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio — a dynamic and interactive website
 
 🌐 **Live Site**: [sharmanshu5.github.io/Portfolio](https://sharmanshu5.github.io/Portfolio)
 
-![Portfolio Preview](./public/preview-image.png) <!-- Replace with your actual preview image -->
+![Portfolio Preview](./src/assets/jobit.png) <!-- Replace with your actual preview image -->
 
 ---
 
