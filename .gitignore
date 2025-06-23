@@ -1,0 +1,37 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# SSR build output (optional)
+dist-ssr/
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor/IDE configs
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vercel deployment files
+.vercel/
+
+# System files
+Thumbs.db
+ehthumbs.db
