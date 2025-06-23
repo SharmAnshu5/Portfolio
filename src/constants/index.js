@@ -1,6 +1,6 @@
 import {
     sql, backend,    ai,    web,    javascript,    python,    html,    css,    reactjs,    tensorflow,    tailwind,    nodejs,    django,    git,
-    figma,   docker,    artifical,    chatbot,    hackerank,    pythonnn,    softskill,    carrent,    jobit,    insuscanpro,    threejs,
+    figma,   docker,    artifical,    chatbot,    hackerank,    hackerank1,    pythonnn,    softskill,    carrent,    jobit,    insuscanpro,    seabeneath,    threejs,
     } 
   from "../assets";
   
@@ -145,6 +145,18 @@ import {
     ],
   },
   {
+    title: "Problem Solving (Intermediate)",
+    provider: "HackerRank",
+    icon: hackerank1,
+    iconBg: "#383E56",
+    date: "May 2024",
+    points: [
+      "This certification challenged me with problems involving greedy algorithms, nested loops, string manipulation, and efficient array operations.",
+      "Each question tested not just logic, but speed and optimization — pushing me to think cleanly under pressure.",
+      "Improved problem-solving skills in programming using Python."
+    ],
+  },
+  {
     title: "Problem Solving (Basic)",
     provider: "HackerRank",
     icon: pythonnn,
@@ -243,6 +255,46 @@ import {
       image: insuscanpro,
       source_code_link: "https://github.com/SharmAnshu5/InsuScan_Pro",
     },
+    {
+      name: "Sea Beneath Object Detection",
+        description: [ 
+          "Developed a deep learning-based system for detecting underwater objects in real-time.",
+          "Developed a custom object detection model using YOLOv4, trained on underwater datasets containing labeled marine life",
+          "submarines, and other objects.",
+          "Applied advanced Deep Learning techniques to handle complex underwater conditions like low visibility and noise.",
+          "Evaluated the model using precision, recall, and mean Average Precision (mAP) metrics.",
+          "Explored real-world deployment scenarios using drones and autonomous underwater vehicles (AUVs)"
+        ],
+        tags: [
+          {
+            name: "Python",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "scikit-learn",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Open-CV",
+            color: "pink-text-gradient",
+          },
+          {
+            name: "Streamlit",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "VOLO 5s",
+            color: "green-text-gradient",
+          },
+          {
+            name: "fastapi",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: seabeneath,
+        source_code_link: "https://github.com/SharmAnshu5/Sea-Beneath-Object-Detection",
+    },
   ];
+
 
   export { services, technologies, certifications, projects };

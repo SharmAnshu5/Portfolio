@@ -24,12 +24,14 @@ import threejs from "./tech/threejs.svg";
 import softskill from "./company/softskill.png";
 import pythonnn from "./company/pythonnn.png";
 import hackerank from "./company/hackerank.png";
+import hackerank1 from "./company/hackerank1.png";
 import artifical from "./company/artifical.png";
 import chatbot from "./company/chatbot.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import insuscanpro from "./insuscanpro.png";
+import seabeneath from "./seabeneath.png";
 
 export {
   logo,
@@ -57,8 +59,10 @@ export {
   pythonnn,
   chatbot,
   hackerank,
+  hackerank1,
   artifical,
   carrent,
   jobit,
   insuscanpro,
+  seabeneath,
 };
