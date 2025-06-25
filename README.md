@@ -1,15 +1,12 @@
 <p align="center">
-  <img src="https://github.com/SharmAnshu5/Resumes/blob/main/Anshu%20Sharma%20(2).png" alt="Anshu Sharma Banner" width="100%" />
+  <img src="https://github.com/SharmAnshu5/Portfolio/blob/main/Screenshot_25-6-2025_183933_sharmanshu5.github.io.jpeg" alt="Anshu Sharma Banner" width="100%" />
 </p>
 
 <h1 align="center">🌐 3D Portfolio Website</h1>
 
-<p align="center">
-  <img src="https://github.com/SharmAnshu5/Resumes/blob/main/Anshu%20Sharma%20(2).png" alt="Banner" width="100%" />
-</p>
 
 <p align="center">
-  <img src="https://github.com/SharmAnshu5/Resumes/blob/main/Anshu%20Resume.png" alt="Portfolio Screenshot" width="800"/>
+  <img src="https://github.com/SharmAnshu5/Portfolio/blob/main/Screenshot_25-6-2025_183933_sharmanshu5.github.io.jpeg" alt="Portfolio Screenshot" width="800"/>
 </p>
 
 <p align="center">
