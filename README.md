@@ -5,6 +5,14 @@
 <h1 align="center">🌐 3D Portfolio Website</h1>
 
 <p align="center">
+  <img src="https://github.com/SharmAnshu5/Resumes/blob/main/Anshu%20Sharma%20(2).png" alt="Banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/SharmAnshu5/Resumes/blob/main/Anshu%20Resume.png" alt="Portfolio Screenshot" width="800"/>
+</p>
+
+<p align="center">
   ✨ A dynamic, 3D-themed personal portfolio built with React, Tailwind CSS, and Three.js <br>
   🛠️ Designed to showcase skills, projects, and contact info in an immersive developer experience
 </p>
@@ -57,8 +65,35 @@ portfolio/
 ├── vite.config.js
 └── README.md
 
+```
 
-<h1 align="center">🌐 Socials</h1> <p align="center"> <a href="https://www.linkedin.com/in/anshu-sharma-b74a07221"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" /></a> <a href="mailto:anshusharma5.as@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" /></a> <a href="https://SharmAnshu5.github.io/Portfolio"><img src="https://img.shields.io/badge/Portfolio-06B6D4?logo=portfolios&logoColor=white" /></a> </p>
-<h1 align="center">💻 Core Technologies</h1> <p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/> <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/> <img src="https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Pages-121013?style=for-the-badge&logo=github&logoColor=white"/> </p>
-<h1 align="center">📬 Contact Me</h1> <p align="center"> Feel free to connect via <a href="mailto:anshusharma5.as@gmail.com">email</a> or on <a href="https://linkedin.com/in/anshu-sharma-b74a07221">LinkedIn</a>.<br> I'm open to collaborations, internships, and freelance opportunities! </p>
-<p align="center"> <a href="https://visitcount.itsvg.in/api?id=SharmAnshu5&icon=0&color=0"> <img src="https://visitcount.itsvg.in/api?id=SharmAnshu5&icon=0&color=0" alt="Profile Visit Counter" /> </a> </p> <!-- Generated with ❤️ by Anshu Sharma -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</p>
+
+<p align="center">
+  <a href="https://SharmAnshu5.github.io/Portfolio" target="_blank">
+    <img src="https://img.shields.io/badge/Live Demo-06B6D4?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://github.com/SharmAnshu5/Portfolio">
+    <img src="https://img.shields.io/badge/Source Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<h1 align="center">💫 About This Project</h1>
+
+<p align="center">
+  🎯 A fully animated, 3D-themed portfolio built with modern web technologies.<br>
+  It showcases my technical skills, development projects, and contact information through<br>
+  immersive visuals, 3D models, and a clean, professional UI.
+</p>
+
+---
