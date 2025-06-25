@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/SharmAnshu5/Portfolio/blob/main/Screenshot_25-6-2025_183933_sharmanshu5.github.io.jpeg" alt="Anshu Sharma Banner" width="100%" />
+  <img src="https://github.com/SharmAnshu5/Portfolio/blob/main/Portfolio.png" alt="Anshu Sharma Banner" width="100%" />
 </p>
 
 <h1 align="center">🌐 3D Portfolio Website</h1>
@@ -24,22 +24,25 @@
 <h1 align="center">⚙️ Tech Stack</h1>
 
 <p align="center">
-  <strong>Frontend:</strong> React.js, Tailwind CSS, Framer Motion <br>
-  <strong>3D & Animation:</strong> Three.js, @react-three/fiber, Drei <br>
-  <strong>Backend Integration:</strong> EmailJS (for contact form) <br>
-  <strong>Deployment:</strong> GitHub Pages via Vite build
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </p>
+
 
 ---
 
 <h1 align="center">📁 Features</h1>
 
 <p align="center">
-  🎯 Smooth scroll and animations with Framer Motion <br>
-  🌌 3D Earth and rotating project spheres with Three.js <br>
-  🎨 Fully responsive Tailwind UI with clean design <br>
-  📨 Working contact form powered by EmailJS <br>
-  🚀 Deployed live on GitHub Pages
+  <strong>🎯 Smooth scroll and animations with Framer Motion </strong><br>
+  <strong>🌌 3D Earth and rotating project spheres with Three.js </strong><br>
+  <strong>🎨 Fully responsive Tailwind UI with clean design </strong><br>
+  <strong>📨 Working contact form powered by EmailJS</strong><br>
+  <strong>🚀 Deployed live on GitHub Pages</strong><br>
 </p>
 
 ---
@@ -64,26 +67,25 @@ portfolio/
 
 ```
 
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</p>
-
-<p align="center">
-  <a href="https://SharmAnshu5.github.io/Portfolio" target="_blank">
-    <img src="https://img.shields.io/badge/Live Demo-06B6D4?style=for-the-badge&logo=vercel&logoColor=white"/>
-  </a>
-  <a href="https://github.com/SharmAnshu5/Portfolio">
-    <img src="https://img.shields.io/badge/Source Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
 ---
+
+<h1 align="center">📦 Getting Started</h1>
+
+Follow the steps below to clone and run this project locally.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/SharmAnshu5/Portfolio.git
+
+# 2. Navigate into the project directory
+cd Portfolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
 
 <h1 align="center">💫 About This Project</h1>
 
