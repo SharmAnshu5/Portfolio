@@ -32,6 +32,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import insuscanpro from "./insuscanpro.png";
 import seabeneath from "./seabeneath.png";
+import automation from "./automation.png"
+import inventia from "./inventia.jpg"
+import Freelance from "./Freelance.png"
+import auto  from "./auto.jpg"
+import fastfood from "./fastfood.png"
+import inventiaLogo from "./inventiaLogo.png";
+import inventiaProject from "./inventiaProject.png";
+import autoProject from "./autoProject.jpg";
+import fast from "./fast.png";
+import datascience from "./datascience.png"
 
 export {
   logo,
@@ -65,4 +75,14 @@ export {
   jobit,
   insuscanpro,
   seabeneath,
+  automation,
+  inventia,
+  Freelance,
+  auto,
+  fastfood,
+  autoProject,
+  fast,
+  inventiaProject,
+  inventiaLogo,
+  datascience,
 };

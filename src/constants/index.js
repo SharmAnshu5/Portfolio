@@ -1,6 +1,8 @@
 import {
     sql, backend,    ai,    web,    javascript,    python,    html,    css,    reactjs,    tensorflow,    tailwind,    nodejs,    django,    git,
-    figma,   docker,    artifical,    chatbot,    hackerank,    hackerank1,    pythonnn,    softskill,    carrent,    jobit,    insuscanpro,    seabeneath,    threejs,
+    figma,   docker,    artifical,    chatbot,    hackerank,    hackerank1,    pythonnn,    softskill,    carrent,    jobit,    insuscanpro,    datascience,  
+    seabeneath,    threejs,    automation,   inventia,   Freelance,    auto,    autoProject,    fastfood,    fast,    inventiaProject,    inventiaLogo
+
     } 
   from "../assets";
   
@@ -20,24 +22,31 @@ import {
     },
   ];
   
-  const services = [
+  const services = [    
     {
-      title: "Backend Developer",
-      icon: backend,
-      
+      title: "Automation",
+      icon: automation,
+    },       
+    {
+      title: "AI Developer",
+      icon: ai,
     },
     {
-      title: "SQL",
-      icon: sql,
+      title: "Data Science",
+      icon : datascience
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,      
     },
     {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "AI Developer",
-      icon: ai,
-    },
+      title: "SQL",
+      icon: sql,
+    }
   ];
   
   const technologies = [
@@ -96,6 +105,19 @@ import {
   ];
   
   const certifications = [
+  {
+    title: "AI, ML & Data Science Internship",
+    provider: "Inventia Technologies",
+    icon: inventia,
+    iconBg: "#383E56",
+    date: "July 2025",
+    points: [
+      "Worked as an AI and Data Science Engineer Intern focusing on model training, data preprocessing, and deployment.",
+      "Built intelligent solutions integrating TensorFlow and scikit-learn for automated classification tasks.",
+      "Performed end-to-end experimentation with Python-based ML pipelines, data cleaning, and visualization.",
+      "Collaborated with mentors to develop scalable models for prediction and automation use cases.",
+    ],   
+  }, 
   {
     title: "Artificial Intelligence",
     provider: "Great Learning",
@@ -167,6 +189,90 @@ import {
       "Practiced logic building, loops, and condition-based problems.",
       "Improved problem-solving skills in programming using Python."
     ],
+  }
+
+ ]; 
+ const Experience = [
+  {
+    name: "AI, ML & Data Science Internship – Inventia Technologies",
+    description: [
+      "Worked as an AI and Data Science Engineer Intern focusing on model training, data preprocessing, and deployment.",
+      "Built intelligent solutions integrating TensorFlow and scikit-learn for automated classification tasks.",
+      "Performed end-to-end experimentation with Python-based ML pipelines, data cleaning, and visualization.",
+      "Collaborated with mentors to develop scalable models for prediction and automation use cases.",
+    ],
+    tags: [
+      { name: "Python", color: "pink-text-gradient" },
+      { name: "TensorFlow", color: "green-text-gradient" },
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "yellow-text-gradient" },
+    ],
+    companyLogo: inventiaLogo,
+    projectImage: inventiaProject,
+    source_code_link: "https://github.com/SharmAnshu5/Energy-Consumption-Forecasting-Internship-Project",
+  },
+
+  {
+    name: "Software Developer & Automation Engineer – Technical Team",
+    description: [
+      "Led the development of an internal RPA automation project aimed at optimizing repetitive business processes.",
+      "Built and deployed custom Python-based automation scripts integrating Selenium, PyAutoGUI, and scheduling tools.",
+      "Streamlined multiple workflow systems to improve accuracy, performance, and reduce manual workload by 60%.",
+      "Collaborated with the technical team on maintaining scalable automation pipelines and secure credential storage.",
+    ],
+    tags: [
+      { name: "Python", color: "pink-text-gradient" },
+      { name: "Automation", color: "orange-text-gradient" },
+      { name: "RPA", color: "green-text-gradient" },
+      { name: "FastAPI", color: "blue-text-gradient" },
+    ],
+    companyLogo: auto,
+    projectImage: autoProject,
+    source_code_link: "https://github.com/SharmAnshu5/RPA-Automation-",
+  },
+
+  {
+    name: "Freelance Web Developer – QR Menu Project",
+    description: [
+      "Developed and deployed a digital QR-based menu system for a fast food restaurant.",
+      "Designed a minimal yet elegant website to enhance customer ordering experience using React and Tailwind CSS.",
+      "Integrated QR codes that dynamically load menu items and pricing in real-time.",
+      "Handled complete end-to-end deployment — from frontend build to server configuration and maintenance.",
+    ],
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "TailwindCSS", color: "green-text-gradient" },
+      { name: "JavaScript", color: "pink-text-gradient" },
+      { name: "Firebase", color: "yellow-text-gradient" },
+    ],
+    companyLogo: fast,
+    projectImage: fastfood,
+    source_code_link: "https://github.com/SharmAnshu5/Itlain-Bite-Pizza",
+  },
+  {
+    name: "Freelance Developer (Currently Open for Projects)",
+    description: [
+      "Currently taking freelance projects focused on AI, automation, and full-stack web development.",
+      "Offer end-to-end development services — from concept, design, and deployment to cloud integration.",
+      "Skilled at building intelligent web apps with React, Node.js, and FastAPI.",
+      "Passionate about working with startups and businesses to deliver high-quality software solutions."
+    ],
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FastAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    companyLogo: Freelance,
+    source_code_link: "https://github.com/SharmAnshu5",
   }
  ];
   
@@ -295,6 +401,17 @@ import {
         source_code_link: "https://github.com/SharmAnshu5/Sea-Beneath-Object-Detection",
     },
   ];
+  const Recommendations = [
+  {
+    name: "Dr. Priya Mehta",
+    role: "Senior Data Scientist & Mentor, Inventia Technologies",
+    feedback:
+      "Anshu Sharma demonstrated exceptional skill in AI and ML during his internship. His ability to integrate automation with data science impressed the entire team. Anshu’s strong problem-solving mindset and technical expertise make him a valuable asset to any organization.",
+    image:
+      "https://cdn-icons-png.flaticon.com/512/2922/2922561.png", // placeholder profile icon
+    linkedin: "https://www.linkedin.com/in/anshu-sharma-b74a07221/",
+  },
+];
 
 
-  export { services, technologies, certifications, projects };
+  export { services, technologies, certifications,Experience, projects,Recommendations };
