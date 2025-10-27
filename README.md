@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="[https://github.com/SharmAnshu5/Portfolio/blob/main/Screenshot_25-6-2025_183933_sharmanshu5.github.io.jpeg" alt="Portfolio Screenshot](https://github.com/SharmAnshu5/Portfolio/blob/main/Screenshot.jpeg)" width="800"/>
+  <img src="https://github.com/SharmAnshu5/Portfolio/blob/main/Screenshot_25-6-2025_183933_sharmanshu5.github.io.jpeg" alt="Portfolio Screenshot" width="800"/>
 </p>
 
 <p align="center">
