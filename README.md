@@ -31,7 +31,9 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
   <img src="https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </p>
-
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=React,Three.js,Tailwind_CSS,Framer_Motion,Vite,github,EmailJS" />
+</p>
 
 ---
 
