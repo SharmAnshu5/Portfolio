@@ -23,7 +23,11 @@
 
 <h1 align="center">⚙️ Tech Stack</h1>
 
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,threejs,tailwind,vite,github,emailjs" />
+  <img width="48" src="https://raw.githubusercontent.com/sharmanshu5/assets/main/framer-motion-light.svg" />
+</p>
+
 
 
 ---
