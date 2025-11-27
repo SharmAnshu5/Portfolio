@@ -24,16 +24,9 @@
 <h1 align="center">⚙️ Tech Stack</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/EmailJS-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=react,threejs,tailwind,framer,vite,github,emailjs" />
 </p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=React,Three.js,Tailwind_CSS,Framer_Motion,Vite,github,EmailJS" />
-</p>
+
 
 ---
 
