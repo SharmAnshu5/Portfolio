@@ -26,6 +26,8 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,threejs,tailwind,framer,vite,github,emailjs" />
 </p>
+<img width="48" src="https://raw.githubusercontent.com/your-repo/framer-motion-icon.svg"/>
+
 
 
 ---
