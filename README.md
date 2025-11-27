@@ -24,11 +24,8 @@
 <h1 align="center">⚙️ Tech Stack</h1>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,threejs,tailwind,vite,github,emailjs" />
-  <img width="48" src="https://raw.githubusercontent.com/sharmanshu5/assets/main/framer-motion-light.svg" />
+  <img src="https://skillicons.dev/icons?i=react,threejs,tailwind,vite,github,html,css,js,nodejs,git,github" />
 </p>
-
-
 
 ---
 
